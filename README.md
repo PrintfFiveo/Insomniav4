@@ -1,4 +1,4 @@
-# Insomniav4
+# Insomniav4 SIMULADO-AULA-AOS
 cria usuarios para a api 
 aqui criei um usuario com meu nome e email,isto é um post
 
@@ -7,7 +7,7 @@ base url :`https://api.pagar.me/core/v5/`
 endpoint : `customers`
 
 body: 
-`{ 
+{ 
 
      "name": "vitor",
 
@@ -19,12 +19,12 @@ body:
 	
      "phone": {}
  
-}`
+}
 
 
 
-## end point =  ``"/orders"``
-## baseurl = ``"https://api.pagar.me/core/v5/"``
+## end point =  `"/orders"`
+## baseurl = `"https://api.pagar.me/core/v5/"`
 este endpoint lista todos os pedidos
 
 
@@ -38,7 +38,7 @@ Baseurl :`
 https://api.pagar.me/core/v5/`
 alguns parametros podem ser o tamanho da pagina/paginas
 
-url ``   --request GET \
+url `   --request GET \
        --url 'https://api.pagar.me/core/v5/customers' \
-       --header 'accept: application/json'` `
+       --header 'accept: application/json'` 
 
